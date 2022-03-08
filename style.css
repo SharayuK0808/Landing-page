@@ -10,7 +10,12 @@
 .navlinks{
     margin-top: 20px;
     padding-top: 20px;
-    padding-right: 50px;
+    padding-right: 80px;
+}
+.navlinks a{
+    font-size:20px; 
+    color: black; 
+    padding-right: 2em;
 }
 
 .headerlogo{
@@ -29,25 +34,39 @@
 .sec1-2{
 
     padding-top: 4em;
-    /* padding-bottom: 1em; */
     padding-right:7em;
-    padding-left:7em;
+    padding-left:8em;
     display:flex;
     justify-content: space-around;
 }
 .content{
     
+    padding-top: 2em;
     color:white;
 }
-.img1 {
-	position: relative;
-	padding-left: 4em;
-	/* padding-right: 14em; */
-	/* padding-top: 1em; */
-	/* padding-bottom: 6em; */
-	/* height:200px;
-	width: 200px; */
+.content h2{
+    font-size:44px ;
+     color:black;
 }
+.content p{
+    font-size : 28px; 
+    color:black;
+}
+.content button{
+    height: 35px; color: palevioletred; font-size: large;
+}
+
+.sec2 h2{
+    text-align:center ; padding-top:30px ; font-size:38px; color:black;
+}
+.img1 img{
+    position: relative;
+    left: 4em;
+}
+.author{
+    padding-left: 50em;
+}
+
 .frame {
 	position: relative;
 	color: #f9faf8;
@@ -74,7 +93,6 @@
     padding-bottom: 60px;
     
 }
-
 .quote{
     background-color: pink;
 
@@ -84,7 +102,7 @@
 .quote p{
     display: flex;
     text-align: center;
-    colour:rgb(66, 11, 11);
+    colour:black;
     font-size: 30px;
     justify-content: center;
 }
@@ -111,58 +129,10 @@
     font-size: 30px;
     padding-right: 60px;
 }
-/* 
-.imgclass  img : hover{
-    opacity: 1;
-} */
+
 
 .imgclass img:hover{
-    opacity: 0.5;
+    transform: scale(1.5);
 }
-
-/*
-
-.box-content button {
-    background-color: #3882f6;
-    border-color: white;
-    border-radius: 6px;
-    color: #f9faf8;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
-}
-
-.box-content button:hover {
-    cursor: pointer;
-    background-color: #0461f7;
-}
-
-
-
-.quote p {
-    display: flex;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    font-family: "Times New Roman", Times, serif;
-    color: rgba(20, 19, 19, 0.541);
-    justify-content: center;
-    
-}
-
-.quote h2 {
-    display: flex;
-    justify-content: center;
-    color: black;
-    padding-left: 25em;
-}
-.quote {
-    background-color: gainsboro;
-    padding-top: 4em;
-    padding-bottom: 4em;
-}
-*/
 
 
